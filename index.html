@@ -2,10 +2,17 @@
 <html>
 <head>
   <title> Redirect </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
 </head>
-  <script> alert("All Credit Goes to ButterToasty: <a href=\'https://github.com/ButterToasty'\></a>") </script>
-  <meta http-equiv="refresh" content="0; url=https://humanperson6662.github.io/Bowl/" />
-
-<div>Redirecting...</div>
-  
+<body></body>
+<script>
+  Swal.fire({
+    html: "All Credit Goes To <a href='https://github.com/buttertoasty'>ButterToasty</a>.",
+    icon: 'info',
+    confirmButtonText: 'Continue'
+  }).then(function () {
+    window.location.replace("https://humanperson6662.github.io/Bowl")
+  });
+</script>
 </html>
